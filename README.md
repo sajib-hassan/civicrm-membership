@@ -13,7 +13,9 @@ I'll provide a zip soon
 Configuration
 =============
 You need to add in your civicrm.settings.php a new config variable
+
 global $civicrm_setting;
+
 $civicrm_setting['com.appcodifier.civimembership']['params'] = array(
 	'from_membership_type' => 1, // General
 	'to_membership_type' => 10, // Associate
